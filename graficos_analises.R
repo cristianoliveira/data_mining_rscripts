@@ -1,2 +1,0 @@
-head(Orange)
-plot(Orange)
