@@ -58,6 +58,8 @@ proposta = gsub("MIOLO SEMDiretrizes FULL.indd", "", proposta)
 dadosMarina = analisaProposta(proposta)
 head(dadosMarina,10)
 
-dadosTodos = merge(topDezAecio, topDezDilma, all=T)
-
-wordcloud(topDezDilma)
+#todo Implementar avaliação por area
+areas = c("saúde","educação","social","economia")
+for (i in areas){
+  print(i)
+} 
