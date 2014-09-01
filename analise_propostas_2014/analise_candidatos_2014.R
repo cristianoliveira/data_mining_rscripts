@@ -1,3 +1,7 @@
+############ATENÇÃO
+#  No windows é necessário baixar o executável 'pdftotext.exe' >> http://www.foolabs.com/xpdf/download.html
+#  No Linux esta função já existe
+
 #install.packages("tm", dep=T)
 #install.packages("wordcloud", dep=T)
 #install.packages("Rstem", dep=T)
