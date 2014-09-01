@@ -1,0 +1,2 @@
+head(Orange)
+plot(Orange)
